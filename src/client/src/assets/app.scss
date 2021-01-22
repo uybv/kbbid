@@ -1,0 +1,11 @@
+// Define variable defaults
+// $body-bg: #000;
+// $body-color: #111;
+
+table.table-transition .flip-list-move {
+    transition: transform 1s;
+}
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
